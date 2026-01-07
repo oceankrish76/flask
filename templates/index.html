@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Flask App{% endblock %}
+
+{% block header_title %}My Flask Application{% endblock %}
+{% block header_description %}A modern web application built with Flask{% endblock %}
+
+{% block content %}
+<h2>Welcome to Our Application</h2>
+<p>This is the home page of our Flask application. Navigate to the <a href="/info">Info</a> or <a href="/services">Services</a> pages to learn more.</p>
+
+<div style="margin-top: 2rem;">
+    <h3>About This Application</h3>
+    <p>This Flask application demonstrates a clean and modern web interface with multiple pages. It includes:</p>
+    <ul style="margin-left: 2rem; margin-top: 1rem;">
+        <li>A responsive design that works on all devices</li>
+        <li>Navigation between different pages</li>
+        <li>Clean and professional styling</li>
+        <li>Easy to customize and extend</li>
+    </ul>
+</div>
+{% endblock %}
+

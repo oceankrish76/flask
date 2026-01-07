@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Services - Flask App{% endblock %}
+
+{% block header_title %}Our Services{% endblock %}
+{% block header_description %}Discover what we have to offer{% endblock %}
+
+{% block content %}
+<h2>Services</h2>
+<p>Welcome to the Services page. Here you can find information about the services we provide.</p>
+
+<div style="margin-top: 2rem;">
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem;">
+        <div style="background-color: #f8f9fa; padding: 1.5rem; border-radius: 8px; border-left: 4px solid #667eea;">
+            <h3>Web Development</h3>
+            <p>Professional web development services using modern technologies and best practices.</p>
+        </div>
+        
+        <div style="background-color: #f8f9fa; padding: 1.5rem; border-radius: 8px; border-left: 4px solid #764ba2;">
+            <h3>Application Design</h3>
+            <p>User-centered design solutions that create intuitive and engaging user experiences.</p>
+        </div>
+        
+        <div style="background-color: #f8f9fa; padding: 1.5rem; border-radius: 8px; border-left: 4px solid #667eea;">
+            <h3>Consulting</h3>
+            <p>Expert consulting services to help you make the right technology decisions.</p>
+        </div>
+    </div>
+    
+    <div style="margin-top: 2rem;">
+        <h3>Why Choose Us?</h3>
+        <ul style="margin-left: 2rem; margin-top: 1rem;">
+            <li>Experienced team of professionals</li>
+            <li>Quality-focused approach</li>
+            <li>Timely delivery</li>
+            <li>Competitive pricing</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}
+
