@@ -30,3 +30,4 @@ python app.py
 3. Open the browser and navigate to http://localhost:5000
 
 4. Update documentation
+5. Ssh key tested
